@@ -1,0 +1,30 @@
+This is a placeholder file to ensure the images directory exists.
+
+Required images for the website:
+
+1. Home page:
+   - hero-bg.jpg (Hero section background)
+   - feature-icons (SVG or PNG icons for features)
+   - service-icons (Icons for each service)
+   - testimonial-avatars (Photos of customers)
+
+2. Services page:
+   - services-header.jpg (Page header background)
+   - service-detail-images (Images for each service)
+
+3. Portfolio page:
+   - portfolio-header.jpg (Page header background)
+   - project-1.jpg through project-6.jpg (Portfolio project images)
+
+4. Contact page:
+   - contact-header.jpg (Page header background)
+
+5. About page:
+   - about-header.jpg (Page header background)
+   - our-story.jpg (Company history image)
+   - growth-journey.jpg (Company growth image)
+   - team-1.jpg through team-4.jpg (Team member photos)
+   - cert-nabcep.svg, cert-iso.svg, cert-cec.svg, cert-sei.svg (Certification logos)
+   - partner-1.svg through partner-6.svg (Partner company logos)
+
+Please replace this file with actual images before deploying the website.
