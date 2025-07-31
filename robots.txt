@@ -1,0 +1,6 @@
+# robots.txt for SolarPro website
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.solarpro.com/sitemap.xml

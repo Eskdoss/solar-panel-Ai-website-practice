@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about SolarPro - your trusted partner for solar panel installation. Discover our story, mission, and commitment to sustainable energy solutions.">
+    <title>About Us - SolarPro</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-green-600">SolarPro</a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-green-600 transition duration-300">Home</a>
+                    <a href="services.html" class="text-gray-600 hover:text-green-600 transition duration-300">Services</a>
+                    <a href="portfolio.html" class="text-gray-600 hover:text-green-600 transition duration-300">Portfolio</a>
+                    <a href="about.html" class="text-green-600 font-medium">About Us</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-green-600 transition duration-300">Contact</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="flex flex-col space-y-4 mt-4 pb-4">
+                    <a href="index.html" class="text-gray-600 hover:text-green-600 transition duration-300">Home</a>
+                    <a href="services.html" class="text-gray-600 hover:text-green-600 transition duration-300">Services</a>
+                    <a href="portfolio.html" class="text-gray-600 hover:text-green-600 transition duration-300">Portfolio</a>
+                    <a href="about.html" class="text-green-600 font-medium">About Us</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-green-600 transition duration-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="relative bg-cover bg-center py-20" style="background-image: url('images/about-header.jpg');">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">About Us</h1>
+            <p class="text-xl text-white max-w-3xl mx-auto">Learn about our journey to make solar energy accessible to everyone</p>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12">Our Story</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+                    <div>
+                        <img src="images/our-story.jpg" alt="SolarPro team" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">How We Started</h3>
+                        <p class="text-gray-600 mb-4">Founded in 2010, SolarPro began with a simple mission: to make clean, renewable energy accessible to everyone. Our founders, a team of engineers and environmental enthusiasts, recognized the growing need for sustainable energy solutions in a world increasingly affected by climate change.</p>
+                        <p class="text-gray-600">What started as a small operation with just three employees has now grown into a leading solar installation company with over 50 dedicated professionals serving residential, agricultural, and commercial clients across the region.</p>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1">
+                        <h3 class="text-2xl font-semibold mb-4">Our Growth Journey</h3>
+                        <p class="text-gray-600 mb-4">Over the years, we've installed thousands of solar power systems, helping our clients reduce their carbon footprint while saving on energy costs. Our commitment to quality, innovation, and customer satisfaction has earned us a reputation as one of the most trusted names in the solar industry.</p>
+                        <p class="text-gray-600">Today, SolarPro continues to lead the way in solar technology, constantly researching and implementing the latest advancements to provide our clients with the most efficient and reliable solar solutions available.</p>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <img src="images/growth-journey.jpg" alt="SolarPro installation" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Mission & Vision</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <!-- Mission -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-center mb-4">Our Mission</h3>
+                    <p class="text-gray-600 text-center">To accelerate the world's transition to sustainable energy by providing high-quality, affordable solar solutions that reduce carbon emissions and energy costs for our clients.</p>
+                </div>
+                
+                <!-- Vision -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-center mb-4">Our Vision</h3>
+                    <p class="text-gray-600 text-center">To create a world where clean, renewable energy is the standard, not the alternative. We envision communities powered by the sun, with energy independence and environmental sustainability at their core.</p>
+                </div>
+            </div>
+            
+            <!-- Values -->
+            <div class="mt-16 max-w-4xl mx-auto">
+                <h3 class="text-2xl font-semibold text-center mb-8">Our Core Values</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Value 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-center mb-2">Quality</h4>
+                        <p class="text-gray-600 text-center">We never compromise on the quality of our products, installations, or service. Excellence is our standard.</p>
+                    </div>
+                    
+                    <!-- Value 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-center mb-2">Innovation</h4>
+                        <p class="text-gray-600 text-center">We continuously seek new technologies and methods to improve our solutions and stay ahead of industry trends.</p>
+                    </div>
+                    
+                    <!-- Value 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold text-center mb-2">Customer Focus</h4>
+                        <p class="text-gray-600 text-center">Our clients' needs and satisfaction are at the center of everything we do. We listen, adapt, and deliver.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Meet Our Leadership Team</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                <!-- Team Member 1 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md">
+                    <img src="images/team-1.jpg" alt="John Smith - CEO" class="w-full h-64 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-1">John Smith</h3>
+                        <p class="text-green-600 mb-3">CEO & Founder</p>
+                        <p class="text-gray-600 text-sm mb-4">With over 20 years of experience in renewable energy, John leads our company with vision and expertise.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-blue-600 transition duration-300">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md">
+                    <img src="images/team-2.jpg" alt="Sarah Johnson - CTO" class="w-full h-64 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-1">Sarah Johnson</h3>
+                        <p class="text-green-600 mb-3">Chief Technical Officer</p>
+                        <p class="text-gray-600 text-sm mb-4">Sarah's engineering background and passion for innovation drive our technical excellence and product development.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-blue-600 transition duration-300">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md">
+                    <img src="images/team-3.jpg" alt="Michael Chen - Operations Director" class="w-full h-64 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-1">Michael Chen</h3>
+                        <p class="text-green-600 mb-3">Operations Director</p>
+                        <p class="text-gray-600 text-sm mb-4">Michael ensures that our installation processes run smoothly and efficiently, maintaining our high standards.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-blue-600 transition duration-300">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 4 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md">
+                    <img src="images/team-4.jpg" alt="Emily Rodriguez - Customer Relations" class="w-full h-64 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-1">Emily Rodriguez</h3>
+                        <p class="text-green-600 mb-3">Customer Relations Manager</p>
+                        <p class="text-gray-600 text-sm mb-4">Emily's dedication to client satisfaction ensures that every customer receives personalized attention and support.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-blue-600 transition duration-300">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates & Partners Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Certifications & Partners</h2>
+            
+            <!-- Certifications -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-semibold text-center mb-8">Industry Certifications</h3>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                    <!-- Certification 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="images/cert-nabcep.svg" alt="NABCEP Certification" class="h-16 mb-4">
+                        <p class="text-center text-gray-600 text-sm">NABCEP Certified</p>
+                    </div>
+                    
+                    <!-- Certification 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="images/cert-iso.svg" alt="ISO 9001 Certification" class="h-16 mb-4">
+                        <p class="text-center text-gray-600 text-sm">ISO 9001:2015</p>
+                    </div>
+                    
+                    <!-- Certification 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="images/cert-cec.svg" alt="CEC Approved Retailer" class="h-16 mb-4">
+                        <p class="text-center text-gray-600 text-sm">CEC Approved Retailer</p>
+                    </div>
+                    
+                    <!-- Certification 4 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="images/cert-sei.svg" alt="SEI Certified Installer" class="h-16 mb-4">
+                        <p class="text-center text-gray-600 text-sm">SEI Certified Installer</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Partners -->
+            <div>
+                <h3 class="text-2xl font-semibold text-center mb-8">Our Trusted Partners</h3>
+                
+                <div class="grid grid-cols-2 md:grid-cols-6 gap-6 max-w-5xl mx-auto">
+                    <!-- Partner 1 -->
+                    <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center">
+                        <img src="images/partner-1.svg" alt="SunPower" class="h-12">
+                    </div>
+                    
+                    <!-- Partner 2 -->
+                    <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center">
+                        <img src="images/partner-2.svg" alt="LG Solar" class="h-12">
+                    </div>
+                    
+                    <!-- Partner 3 -->
+                    <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center">
+                        <img src="images/partner-3.svg" alt="Tesla" class="h-12">
+                    </div>
+                    
+                    <!-- Partner 4 -->
+                    <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center">
+                        <img src="images/partner-4.svg" alt="Enphase" class="h-12">
+                    </div>
+                    
+                    <!-- Partner 5 -->
+                    <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center">
+                        <img src="images/partner-5.svg" alt="SMA" class="h-12">
+                    </div>
+                    
+                    <!-- Partner 6 -->
+                    <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center">
+                        <img src="images/partner-6.svg" alt="Fronius" class="h-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-green-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Go Solar?</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Join thousands of satisfied customers who have made the switch to clean, renewable energy with SolarPro.</p>
+            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
+                <a href="contact.html" class="bg-white text-green-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-full text-lg transition duration-300 inline-block">Contact Us</a>
+                <a href="services.html" class="border-2 border-white text-white hover:bg-white hover:text-green-600 font-bold py-3 px-8 rounded-full text-lg transition duration-300 inline-block">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">SolarPro</h3>
+                    <p class="text-gray-400 mb-4">Professional solar panel installation services for residential, agricultural, and commercial properties.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition duration-300">Services</a></li>
+                        <li><a href="portfolio.html" class="text-gray-400 hover:text-white transition duration-300">Portfolio</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition duration-300">On-Grid Systems</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition duration-300">Off-Grid Systems</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition duration-300">Hybrid Systems</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition duration-300">Solar Water Pumps</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition duration-300">Solar Street Lights</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition duration-300">Battery Backup</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                            <span>123 Solar Street, Green City, 12345</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                            <span>info@solarpro.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>Mon-Fri: 9AM-6PM<br>Sat: 10AM-4PM<br>Sun: Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400">
+                <p>&copy; 2023 SolarPro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
